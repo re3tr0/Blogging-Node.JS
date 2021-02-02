@@ -1,0 +1,153 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 100%;
+    background-color: white;
+}
+
+.page
+{
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+}
+
+.navbar
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: 600;
+    font-size: 25px;
+    align-items: center;
+    z-index: 999;
+    background-color: black;
+}
+
+.container
+{
+    display:flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.navleft 
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#navitem
+{
+    padding: 2px 2px;
+    margin: 10px 10px;
+    text-align: center;
+}
+#navitem a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navitem:hover
+{
+    background-color: greenyellow;
+}
+
+.footer
+{
+    position: relative;
+    bottom:0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.content
+{   
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 97%;
+    height: 100%;
+    display:flexbox;
+}
+
+.blogg
+{
+    padding: 10px;
+    background-color: #f4efef;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flexbox;
+    flex-direction: row;
+}
+
+.bloggtitle
+{
+    margin-left: 10px;
+}
+
+.bloggcontent
+{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blogname
+{
+    margin-left: 50px;
+    color:white;
+    width: 50%;
+}
+
+.formcontrol
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+input[type="text"]
+{
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(11, 134, 235);
+}
+
+textarea
+{
+    resize: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(11, 134, 235);
+}
+
+#formbutn
+{
+    border-radius: 3px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+    border: 2px solid rgb(53, 202, 53);
+    background-color: greenyellow;
+    color: rgb(123, 9, 216);
+    font-size: 18px;
+}

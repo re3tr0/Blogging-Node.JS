@@ -1,0 +1,14 @@
+<%- include("partials/header");-%>
+    <% postcont.forEach(function(posts) { %>
+        <div class="blogg">
+            <div class="bloggtitle">
+                <h1><%= posts.title %></h1>
+            </div>
+            <hr>
+            <div class="bloggcontent">
+                <%= posts.content %>
+            </div>
+        </div>
+        <% }) %>
+
+<%- include("partials/footer"); -%>
